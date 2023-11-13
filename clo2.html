@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
+    <link rel="stylesheet" href="clo2.css">
+  </head>
+  <body>
+    <main>
+        <div class="weacont">
+            <p id="wtype" class="icon"></p>
+            <p id="temp" class="temp"></p>
+            <p class="iconea" id="title"></p>
+            <p class="localtime" id="localtime"></p>
+            <p id="feels" class="feels"></p>
+            
+        </div>
+        <div class="weaback">
+            <h2 class="location" id="location">current location<br></h2>
+            <h1 class="forecast">forecast</h1>
+            <form class="c">
+                <h1 class="title">Find Your Weather Forecast </h1>
+                <input class="input" id="cname" type="text" placeholder="Type the City">
+                <button class="button is-icon" id ="weather" onclick="event.preventDefault(),weatherReport()"><i class="fa fa-search"></i></button>
+             </form>
+            
+        </div>
+        
+    </main>
+    <script src="clo.js"></script>
+    </body>

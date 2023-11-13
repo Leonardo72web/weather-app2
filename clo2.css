@@ -1,0 +1,73 @@
+.weaback{
+    background-image: url(https://images.pexels.com/photos/2714581/pexels-photo-2714581.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    width: 55%;
+    height: 46em;
+    border-radius: 10px;
+    opacity: 0.9;
+    
+}
+.weacont{
+    float: right;
+    background-color : rgba(93, 140, 152, 0.573);
+    margin-top: 0em;
+    border-radius: 10px;
+    width: 45%;
+    height: 46em;
+}
+.forecast{
+    padding-top: 3em;
+    padding-left: 3em;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    text-shadow: 0px 0px 3px rgb(81, 81, 81);
+}
+.location{
+    float: right;
+    margin-top: 4.2em;
+    margin-right: 3em;
+    color: white;
+    background-color: rgba(136, 129, 129, 0.651);
+    border-radius: 10px;
+    width: 240px;
+   height: 40px;
+   border: 1px solid black;
+}
+.title{
+    margin-top: 6em;
+    margin-left: 6em;
+    color: white;
+}
+.input{
+    width: 26em;
+    margin-top: 3em;
+    margin-left: 10.5em;
+    color: #000;
+    opacity: 0.5;
+}
+button{
+    margin-top: 3em;
+}
+.icon{
+    margin-top: 15em;
+    margin-left: 16em;
+    width:200px;
+}
+.iconea{
+    margin-top: 1px;
+    margin-left: 30%;
+    margin-right: 10%;
+    font-size: 50px;
+    color: rgb(207, 142, 57);
+}
+.localtime{
+    margin-left: 42.5%;
+}
+.temp{
+    font-size: 26px;
+    margin-left: 36%;
+    color: rgb(179, 111, 111);
+    margin-top: 4em;
+}
+.feels{
+    margin-left: 44%;
+}
